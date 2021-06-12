@@ -1,0 +1,44 @@
+body{
+  background-image: url("../imgs/backgroundcolour.jpg");
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;;
+}
+
+nav a{
+  text-align: center;
+  color:#000000;
+  background: #F0FFFF;
+  display: inline-block;
+  width: 15%;
+  margin-right: 1vw;
+  margin-left:1vw;
+  padding: 1%;
+  border-radius: 10px;
+  /* float:right; */
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  transition-delay: 0.1s;
+}
+
+a:hover{
+  background: #00FFFF;
+  color: #00BFFF;
+  font-size: 15px;
+}
+
+section{
+  display: inline-block;
+  width: 40vw;
+  margin-left: 5vw;
+  margin-top: 8vh;
+  float: left;
+  text-align: center;
+  font-size: 1vw;
+font-weight: bold;
+}
